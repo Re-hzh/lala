@@ -1,0 +1,54 @@
+/* google fonts雲端字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+
+ 
+:root, /* ,表示符合條件時套用 */
+[data-bs-theme-light]{
+    --bs-dark-rgb: 0, 34, 68;
+    --bs-emphasis-color: #002244;
+}
+:root,
+[data-bs-theme=light]{
+    --bs-info-bg-subtle: #99CCEE;  /* alert-info背景色 */
+    --bs-info-text-emphasis: #003333; /* alert-info文字色 */
+}
+:root {
+    --color-dark-blue:#002244;
+    --font-weight-bold: bolder;
+    --max-font-size: 2rem;
+    
+}
+
+/* 雲端字體套用body標籤 */
+body{
+    font-family: "微軟正黑體", "Noto Sans TC", sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: #99CCEE;
+}
+
+footer {
+    background-color: #002244;
+    color: #ffffFF;
+}
+.img-radius{
+border-radius:10px;
+}
+
+.card-border-none {
+    border-style: none;
+}
+
+.h2-label {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 900;
+}
+.card-title {
+    text-align: center;
+
+}
+
